@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MeData.Views.Profile.ProfilePage">
+    <ContentPage.Content>
+            <ScrollView>
+    <StackLayout Spacing="20" VerticalOptions="CenterAndExpand" Margin="20">
+        <Image Source="MeData.png" />
+       
+        <Label Text="               Welcome To Your Profile Page! "  TextColor="Black" FontSize="16" />
+        <Button BackgroundColor="IndianRed" TextColor="White" Text="My General Information" Clicked="Button_Clicked_1" />
+    
+        <Button BackgroundColor="IndianRed" TextColor="White" Text="After Appointment Notes" Clicked="Button_Clicked_2"/>
+
+        <Button BackgroundColor="IndianRed" TextColor="White" Text="My Drug Comsumption "  Clicked="Button_Clicked_3"/>
+
+        <Button BackgroundColor="IndianRed" TextColor="White" Text="Settings" Clicked="Button_Clicked" />
+
+    </StackLayout>
+        </ScrollView>
+
+        
+    </ContentPage.Content>
+</ContentPage>

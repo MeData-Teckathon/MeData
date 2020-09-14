@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{442A6C84-771C-419E-A87B-4B6DFBE30266}|Default">
+  <MonoDevelop.Ide.ItemProperties.MeData.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.439F1873-551C-421C-B317-A712B3FB936E" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MeData/Views/General/GeneralPage.xaml">
+    <Files>
+      <File FileName="MeData/Views/General/GeneralPage.xaml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MeData" expanded="True">
+            <Node name="MeData" expanded="True">
+              <Node name="Services" expanded="True" />
+              <Node name="Tables" expanded="True">
+                <Node name="Register" expanded="True" />
+              </Node>
+              <Node name="ViewModel" expanded="True">
+                <Node name="Login" expanded="True" />
+                <Node name="Register" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="General" expanded="True">
+                  <Node name="GeneralPage.xaml" expanded="True" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MeData.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.deviceand1" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

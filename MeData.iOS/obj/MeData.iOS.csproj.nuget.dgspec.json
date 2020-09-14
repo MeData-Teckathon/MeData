@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/anastassia/Desktop/MeData/MeData.iOS/MeData.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/anastassia/Desktop/MeData/MeData.iOS/MeData.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anastassia/Desktop/MeData/MeData.iOS/MeData.iOS.csproj",
+        "projectName": "MeData.iOS",
+        "projectPath": "/Users/anastassia/Desktop/MeData/MeData.iOS/MeData.iOS.csproj",
+        "packagesPath": "/Users/anastassia/.nuget/packages/",
+        "outputPath": "/Users/anastassia/Desktop/MeData/MeData.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/anastassia/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "/Users/anastassia/Desktop/MeData/MeData/MeData.csproj": {
+                "projectPath": "/Users/anastassia/Desktop/MeData/MeData/MeData.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.6.0.1141, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/anastassia/Desktop/MeData/MeData/MeData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anastassia/Desktop/MeData/MeData/MeData.csproj",
+        "projectName": "MeData",
+        "projectPath": "/Users/anastassia/Desktop/MeData/MeData/MeData.csproj",
+        "packagesPath": "/Users/anastassia/.nuget/packages/",
+        "outputPath": "/Users/anastassia/Desktop/MeData/MeData/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/anastassia/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[4.0.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.6.0.1141, )"
+            },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[2.1.0.714, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

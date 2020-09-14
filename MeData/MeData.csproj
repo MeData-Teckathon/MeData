@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.6.0.1141" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="FirebaseDatabase.net" Version="4.0.4" />
+    <PackageReference Include="Xamarin.Forms.PancakeView" Version="2.1.0.714" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Views\DashBoard\DashboardPageDetails.xaml">
+      <LogicalName>Views.DashBoard.DashboardPageDetails.xaml</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\" />
+    <Folder Include="Views\Login\" />
+    <Folder Include="Views\Register\" />
+    <Folder Include="Views\Profile\" />
+    <Folder Include="Views\Drugs\" />
+    <Folder Include="Views\Hospital\" />
+    <Folder Include="Views\General\" />
+    <Folder Include="Views\Settings\" />
+    <Folder Include="ViewModel\" />
+    <Folder Include="ViewModel\Login\" />
+    <Folder Include="Services\" />
+    <Folder Include="Tables\" />
+    <Folder Include="Tables\Register\" />
+    <Folder Include="ViewModel\Register\" />
+  </ItemGroup>
+</Project>

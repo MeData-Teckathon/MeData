@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MeData.Views.Register.RegisterPage">
+    <ContentPage.Content>
+            <ScrollView>
+    <StackLayout Spacing="20" VerticalOptions="CenterAndExpand" Margin="20">
+        <Image Source="MeData.png" />
+       <Entry Visual="Material" FontSize="24" Placeholder=" Enter Your National ID Number" Text="{Binding UserName}"/>
+        <Entry Visual="Material" Placeholder="Enter Your Password" FontSize="24" IsPassword="True" Text="{Binding Password}" />
+        <Button BackgroundColor="IndianRed" TextColor="White" Text="Create Account" Command="{Binding RegisterUser}"/>
+        
+    </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

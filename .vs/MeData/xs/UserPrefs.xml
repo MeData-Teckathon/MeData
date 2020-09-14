@@ -1,27 +1,32 @@
 ﻿<Properties StartupConfiguration="{442A6C84-771C-419E-A87B-4B6DFBE30266}|Default">
   <MonoDevelop.Ide.ItemProperties.MeData.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.439F1873-551C-421C-B317-A712B3FB936E" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MeData/Views/General/GeneralPage.xaml.cs">
-    <Files>
-      <File FileName="MeData/Views/General/GeneralPage.xaml" Line="14" Column="21" />
-      <File FileName="MeData/Views/General/GeneralPage.xaml.cs" Line="14" Column="20" />
-      <File FileName="MeData/Services/ApiServices.cs" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MeData" expanded="True">
             <Node name="MeData" expanded="True">
               <Node name="Services" expanded="True" />
+              <Node name="Tables" expanded="True">
+                <Node name="Register" expanded="True" />
+              </Node>
+              <Node name="ViewModel" expanded="True">
+                <Node name="Login" expanded="True" />
+              </Node>
               <Node name="Views" expanded="True">
                 <Node name="General" expanded="True">
-                  <Node name="GeneralPage.xaml" expanded="True">
-                    <Node name="GeneralPage.xaml.cs" selected="True" />
-                  </Node>
+                  <Node name="GeneralPage.xaml" expanded="True" />
+                </Node>
+                <Node name="Login" expanded="True">
+                  <Node name="LoginPage.xaml" expanded="True" />
                 </Node>
                 <Node name="Profile" expanded="True">
                   <Node name="ProfilePage.xaml" expanded="True" />
                 </Node>
               </Node>
+            </Node>
+            <Node name="MeData.iOS" expanded="True">
+              <Node name="Main.cs" selected="True" />
             </Node>
           </Node>
         </State>

@@ -79,16 +79,10 @@ namespace MeData.Services
         }
 
 
-        //GetName
-        public async Task<RegisterTable> GetName(Guid personId)
-        {
-            var allPersons = await GetAllNames();
-            await firebase
-                .Child("RegisterEmployeeTable")
-                .OnceAsync<RegisterTable>();
-            return allPersons.FirstOrDefault(a => a.UserId == personId);
-        }
+        
+       
 
+        
     }
 }
 

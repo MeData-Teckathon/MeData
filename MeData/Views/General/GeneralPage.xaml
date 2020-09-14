@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MeData.Views.General.GeneralPage">
     <ContentPage.Content>
-        <ScrollView>
+        <ScrollView Orientation="Both">
             <StackLayout>
                 <StackLayout Orientation="Horizontal">
                     <Image Source="MeData.png"/>
@@ -10,7 +10,7 @@
                 <StackLayout Orientation="Horizontal" Margin="10,5">
                     <Button Text="    Save     " BackgroundColor="IndianRed" FontSize="15" TextColor="White" Clicked="Button_Clicked"/>
                     <Label  Text="Full Name"  WidthRequest="100" TextColor="Gray" FontSize="15" VerticalTextAlignment="Center"/>
-                    <Entry FontSize="15" x:Name="FullName" TextColor="Black" FontFamily="Bold" />
+                    <Entry FontSize="15" x:Name="FullName" TextColor="Black" FontFamily="Bold" Text=""/>
                     
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" Margin="10,5">

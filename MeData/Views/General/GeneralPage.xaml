@@ -7,53 +7,42 @@
                     <Image Source="MeData.png"/>
                     
                 </StackLayout>
-                <StackLayout Orientation="Horizontal" Margin="10,5">
-                    <Button Text="    Save     " BackgroundColor="IndianRed" FontSize="15" TextColor="White" Clicked="Button_Clicked"/>
-                    <Label  Text="Full Name"  WidthRequest="100" TextColor="Gray" FontSize="15" VerticalTextAlignment="Center"/>
-                    <Entry FontSize="15" x:Name="FullName" TextColor="Black" FontFamily="Bold" Text=""/>
+                <StackLayout Orientation="Horizontal" Margin="15,5">
+                    
+                    <Label  Text="Full Name" WidthRequest="200"  TextColor="Gray" FontSize="15" />
+                    <Label FontSize="15" x:Name="FullName" TextColor="Black" FontFamily="Bold" Text=""/>
                     
                 </StackLayout>
-                <StackLayout Orientation="Horizontal" Margin="10,5">
-                    <Button Text="     Save    " BackgroundColor="IndianRed" FontSize="15" TextColor="White" />
-                    <Label Text="Gender" WidthRequest="100" TextColor="Gray" FontSize="15" VerticalTextAlignment="Center"/>
-                    <Entry FontSize="15" TextColor="Black" FontFamily="Bold" Text="lala"/>
-                    
-                </StackLayout>
-
-                <StackLayout Orientation="Horizontal" Margin="10,5">
-                    <Button Text="     Save    " BackgroundColor="IndianRed" FontSize="15" TextColor="White" />
-                    <Label Text="Age" WidthRequest="100" TextColor="Gray" FontSize="15" VerticalTextAlignment="Center"/>
-                    <Entry FontSize="15" TextColor="Black" FontFamily="Bold" Text="lala"/>
+                <StackLayout Orientation="Horizontal" Margin="15,5">
+                   
+                    <Label Text="Gender" WidthRequest="200" TextColor="Gray" FontSize="15" VerticalTextAlignment="Center"/>
+                    <Label FontSize="15" TextColor="Black" FontFamily="Bold" Text="lala"/>
                     
                 </StackLayout>
 
-                <StackLayout Orientation="Horizontal" Margin="10,5">
-                    <Button Text="     Save    " BackgroundColor="IndianRed" FontSize="15" TextColor="White" />
-                    <Label Text="Gender" WidthRequest="100" TextColor="Gray" FontSize="15" VerticalTextAlignment="Center"/>
-                    <Entry FontSize="15" TextColor="Black" FontFamily="Bold" Text="lala"/>
+                <StackLayout Orientation="Horizontal" Margin="15,5">
+                    
+                    <Label Text="Age" WidthRequest="200" TextColor="Gray" FontSize="15" VerticalTextAlignment="Center"/>
+                    <Label FontSize="15" TextColor="Black" FontFamily="Bold" Text="lala"/>
                     
                 </StackLayout>
 
-                <StackLayout Orientation="Horizontal" Margin="10,5">
-                    <Button Text="     Save    " BackgroundColor="IndianRed" FontSize="15" TextColor="White" />
-                    <Label Text="Smoking Habit"  WidthRequest="100" TextColor="Gray" FontSize="15" VerticalTextAlignment="Center"/>
-                    <Entry FontSize="15" TextColor="Black" FontFamily="Bold" Text="lala"/>
+                <StackLayout Orientation="Horizontal" Margin="15,5">
+                    
+                    <Label Text="Gender" WidthRequest="200" TextColor="Gray" FontSize="15" VerticalTextAlignment="Center"/>
+                    <Label FontSize="15" TextColor="Black" FontFamily="Bold" Text="lala"/>
                     
                 </StackLayout>
 
-                <StackLayout Orientation="Horizontal" Margin="10,5">
-                    <Button Text="     Save    " BackgroundColor="IndianRed" FontSize="15" TextColor="White" />
-                    <Label Text="Alcohol Consumption" WidthRequest="100" TextColor="Gray" FontSize="15" VerticalTextAlignment="Center"/>
-                    <Entry FontSize="15" TextColor="Black" FontFamily="Bold" Text="lala"/>
+                <StackLayout Orientation="Horizontal" Margin="15,5">
+                    
+                    <Label Text="Smoking Habit"  WidthRequest="200" TextColor="Gray" FontSize="15" VerticalTextAlignment="Center"/>
+                    <Label FontSize="15" TextColor="Black" FontFamily="Bold" Text="lala"/>
                     
                 </StackLayout>
 
-                <StackLayout Orientation="Horizontal" Margin="10,5">
-                    <Button Text="     Save    " BackgroundColor="IndianRed" FontSize="15" TextColor="White" />
-                    <Label Text="Full Name" WidthRequest="100" TextColor="Gray" FontSize="15" VerticalTextAlignment="Center"/>
-                    <Entry FontSize="15" TextColor="Black" FontFamily="Bold" Text="lala"/>
-                    
-                </StackLayout>
+                
+                
 
 
             </StackLayout>

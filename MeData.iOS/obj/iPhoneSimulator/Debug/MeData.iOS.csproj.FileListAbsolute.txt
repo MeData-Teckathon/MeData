@@ -65,3 +65,9 @@
 /Users/anastassia/Desktop/MeData/MeData.iOS/obj/iPhoneSimulator/Debug/MeData.iOS.csproj.CopyComplete
 /Users/anastassia/Desktop/MeData/MeData.iOS/obj/iPhoneSimulator/Debug/MeData.iOS.exe
 /Users/anastassia/Desktop/MeData/MeData.iOS/obj/iPhoneSimulator/Debug/MeData.iOS.pdb
+/Users/anastassia/Desktop/MeData/MeData.iOS/bin/iPhoneSimulator/Debug/SQLite-net.dll
+/Users/anastassia/Desktop/MeData/MeData.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/anastassia/Desktop/MeData/MeData.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.nativelibrary.dll
+/Users/anastassia/Desktop/MeData/MeData.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
+/Users/anastassia/Desktop/MeData/MeData.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.dynamic_cdecl.dll
+/Users/anastassia/Desktop/MeData/MeData.iOS/bin/iPhoneSimulator/Debug/System.Runtime.CompilerServices.Unsafe.dll

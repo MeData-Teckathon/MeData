@@ -20,10 +20,7 @@
 /Users/anastassia/Projects/MeData/MeData/obj/Debug/netstandard2.0/Views/DashBoard/DashboardPageDetails.xaml.g.cs
 /Users/anastassia/Projects/MeData/MeData/obj/Debug/netstandard2.0/Views/Login/LoginPage.xaml.g.cs
 /Users/anastassia/Projects/MeData/MeData/obj/Debug/netstandard2.0/Views/Register/RegisterPage.xaml.g.cs
-/Users/anastassia/Desktop/MeData/MeData/bin/Debug/netstandard2.0/MeData.deps.json
-/Users/anastassia/Desktop/MeData/MeData/bin/Debug/netstandard2.0/MeData.dll
-/Users/anastassia/Desktop/MeData/MeData/bin/Debug/netstandard2.0/ref/MeData.dll
-/Users/anastassia/Desktop/MeData/MeData/bin/Debug/netstandard2.0/MeData.pdb
+/Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/MeData.csprojAssemblyReference.cache
 /Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
 /Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/Views/Drugs/DrugsPage.xaml.g.cs
@@ -36,8 +33,11 @@
 /Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/MeData.AssemblyInfoInputs.cache
 /Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/MeData.AssemblyInfo.cs
 /Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/MeData.csproj.CoreCompileInputs.cache
+/Users/anastassia/Desktop/MeData/MeData/bin/Debug/netstandard2.0/MeData.deps.json
+/Users/anastassia/Desktop/MeData/MeData/bin/Debug/netstandard2.0/MeData.dll
+/Users/anastassia/Desktop/MeData/MeData/bin/Debug/netstandard2.0/ref/MeData.dll
+/Users/anastassia/Desktop/MeData/MeData/bin/Debug/netstandard2.0/MeData.pdb
 /Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/MeData.dll
 /Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/ref/MeData.dll
 /Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/MeData.pdb
-/Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/MeData.csprojAssemblyReference.cache

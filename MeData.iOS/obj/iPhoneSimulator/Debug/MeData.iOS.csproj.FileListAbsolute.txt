@@ -56,6 +56,8 @@
 /Users/anastassia/Desktop/MeData/MeData.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-13.7/coremlc/_PartialAppManifest.items
 /Users/anastassia/Desktop/MeData/MeData.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-13.7/coremlc/_BundleResourceWithLogicalName.items
 /Users/anastassia/Desktop/MeData/MeData.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-13.7/optimized/MeData.png
+/Users/anastassia/Desktop/MeData/MeData.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-13.7/optimized/smedata.png
+/Users/anastassia/Desktop/MeData/MeData.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-13.7/optimized/smd.png
 /Users/anastassia/Desktop/MeData/MeData.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-13.7/optimized/
 /Users/anastassia/Desktop/MeData/MeData.iOS/obj/iPhoneSimulator/Debug/MeData.iOS.csprojAssemblyReference.cache
 /Users/anastassia/Desktop/MeData/MeData.iOS/obj/iPhoneSimulator/Debug/MeData.iOS.csproj.CoreCompileInputs.cache
@@ -63,4 +65,3 @@
 /Users/anastassia/Desktop/MeData/MeData.iOS/obj/iPhoneSimulator/Debug/MeData.iOS.csproj.CopyComplete
 /Users/anastassia/Desktop/MeData/MeData.iOS/obj/iPhoneSimulator/Debug/MeData.iOS.exe
 /Users/anastassia/Desktop/MeData/MeData.iOS/obj/iPhoneSimulator/Debug/MeData.iOS.pdb
-/Users/anastassia/Desktop/MeData/MeData.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-13.7/optimized/smedata.png

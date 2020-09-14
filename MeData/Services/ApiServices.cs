@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Firebase.Database;
@@ -32,7 +33,16 @@ namespace MeData.Services
         }
 
 
-
+        public async Task<List<RegisterTable>> GetAllNames()
+        {
+            return (await firebase
+                .Child("RegisterEmployeeTable")
+                .OnceAsync<RegisterTable>()).Select(item => new RegisterTable
+                {
+                    FullNameID = item.Object.FullNameID,
+                    UserId = item.Object.UserId
+                }).ToList();
+        }
 
         //Register User
         public async Task<bool> RegisterUser(string username, string password)
@@ -66,6 +76,17 @@ namespace MeData.Services
             {
                 return null;
             }
+        }
+
+
+        //GetName
+        public async Task<RegisterTable> GetName(Guid personId)
+        {
+            var allPersons = await GetAllNames();
+            await firebase
+                .Child("RegisterEmployeeTable")
+                .OnceAsync<RegisterTable>();
+            return allPersons.FirstOrDefault(a => a.UserId == personId);
         }
 
     }

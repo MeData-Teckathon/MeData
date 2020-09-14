@@ -28,7 +28,6 @@
     <Folder Include="Views\Profile\" />
     <Folder Include="Views\Drugs\" />
     <Folder Include="Views\Hospital\" />
-    <Folder Include="Views\General\" />
     <Folder Include="Views\Settings\" />
     <Folder Include="ViewModel\" />
     <Folder Include="ViewModel\Login\" />
@@ -36,5 +35,6 @@
     <Folder Include="Tables\" />
     <Folder Include="Tables\Register\" />
     <Folder Include="ViewModel\Register\" />
+    <Folder Include="Views\General\" />
   </ItemGroup>
 </Project>

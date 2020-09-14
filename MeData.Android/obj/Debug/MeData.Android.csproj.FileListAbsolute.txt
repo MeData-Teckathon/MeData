@@ -490,6 +490,7 @@
 /Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/res.flag
 /Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/R.txt
 /Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/R.cs.flag
+/Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/GeneralPage.xaml.g.cs
 /Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/MeData.Android.csproj.CoreCompileInputs.cache
 /Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/XamlC.stamp
 /Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/MeData.Android.csproj.CopyComplete
@@ -516,6 +517,8 @@
 /Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/res/mipmap-xxxhdpi/icon.png
 /Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/res/mipmap-xxxhdpi/launcher_foreground.png
 /Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/res/drawable/medata.png
+/Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/res/drawable/smedata.png
+/Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/res/drawable/smd.png
 /Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/uploadflags.txt
 /Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/resolvedassemblies.hash
 /Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/android/assets/Firebase.dll

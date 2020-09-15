@@ -1,5 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MeData.Views.Settings.SettingsPage">
     <ContentPage.Content>
+        <ScrollView Orientation="Vertical">
+            <StackLayout>
+                <Image Source="smd.png"/>
+                <Label/>
+                <Label/>
+                <Label/>
+                <Label/>
+                <Label/>
+                <Label Text="ABOUT THIS APP" Margin="10,25" FontFamily="Bold" FontSize="Header" />
+                <Label/>
+                <Label/>
+                <Label Margin = "10,5" Text="MeData is a mobile appication that provides medical history of the patient fron different doctors and haelth providing centers in one profile. It contains four main section: First one is General information that your doctor should know, the second one is for notes after medical appointment. The third one is drug consumption history, it is also very important to show to your doctor, as it contains all the drugs that you are taking and that you took. The last one is your doctor's contact info shown in number, you may need this in the case of emergency." FontFamily="Bold" FontSize="Body"/>
+                <Label/>
+                <Label/>
+                <Label/>
+                <Label/>
+                <Label Text=" *Follow Up For the Upcoming Excited Uptades!" Margin="10" TextColor="Black" FontSize="15"/>
+                <Label Text="MeData Team Wishes You A Good Health!" Margin="10,50"/>
+                <Button BackgroundColor="IndianRed" TextColor="White" Text="Log Out" WidthRequest="50" Clicked="Button_Clicked"/>
+            </StackLayout>
+
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

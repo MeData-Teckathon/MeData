@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MeData.Views.Drugs.DrugsPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MeData.Views.MyDostors.MyDoctorsPage">
     <ContentPage.Content>
         <ScrollView Orientation="Both">
             <StackLayout>
                 <Image Source="smd.png"/>
                 <Label/>
                 <Label/>
-                <Button BackgroundColor="IndianRed" TextColor="White" Text="Add Drug" Clicked="Button_Clicked"/>
+                <Button BackgroundColor="IndianRed" Text="Add a Doctor" TextColor="White" Clicked="Button_Clicked"/>
                 <Button BackgroundColor="IndianRed" Text="Refresh" TextColor="White" Clicked="Button_Clicked_1"/>
-                <ListView x:Name="l" HeightRequest="100" SeparatorColor="IndianRed"/>
+                <ListView x:Name="l" SeparatorColor="IndianRed" MinimumHeightRequest="100"/>
             </StackLayout>
-        </ScrollView>
+            </ScrollView>
     </ContentPage.Content>
 </ContentPage>

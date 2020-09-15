@@ -38,5 +38,6 @@
     <Folder Include="ViewModel\Register\" />
     <Folder Include="Views\General\" />
     <Folder Include="Modell\" />
+    <Folder Include="Views\MyDostors\" />
   </ItemGroup>
 </Project>

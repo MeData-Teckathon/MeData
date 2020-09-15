@@ -6,7 +6,7 @@
                 <Image Source="smd.png"/>
                 <Button BackgroundColor="IndianRed" TextColor="White" Text="Add A Diagnosis Or Treatment" Clicked="Button_Clicked"/>
                 <Button BackgroundColor="IndianRed" TextColor="White" Text="Refresh" Clicked="Button_Clicked_1"/>
-            <ListView SeparatorColor="IndianRed" HeightRequest="100"/></StackLayout>
+            <ListView x:Name="l" SeparatorColor="IndianRed" HeightRequest="100"/></StackLayout>
           
         </ScrollView>
         

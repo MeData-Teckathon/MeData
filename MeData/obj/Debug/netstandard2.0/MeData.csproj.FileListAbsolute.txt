@@ -44,3 +44,5 @@
 /Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/Views/AddGeneralInfoPage.xaml.g.cs
 /Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/Views/AddDrug.xaml.g.cs
 /Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/Views/HospitalAdd.xaml.g.cs
+/Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/Views/AddDoctor.xaml.g.cs
+/Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/Views/MyDostors/MyDoctorsPage.xaml.g.cs

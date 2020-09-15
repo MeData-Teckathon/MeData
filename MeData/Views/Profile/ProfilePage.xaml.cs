@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using MeData.Views.Drugs;
 using MeData.Views.General;
 using MeData.Views.Hospital;
+using MeData.Views.MyDostors;
 using MeData.Views.Settings;
 using Xamarin.Forms;
 
@@ -35,6 +36,11 @@ namespace MeData.Views.Profile
         async void Button_Clicked_3(System.Object sender, System.EventArgs e)
         {
             await Navigation.PushAsync(new DrugsPage(D));
+        }
+
+        async void Button_Clicked_4(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new MyDoctorsPage());
         }
     }
 }

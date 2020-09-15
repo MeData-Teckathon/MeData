@@ -12,6 +12,8 @@
 
         <Button BackgroundColor="IndianRed" TextColor="White" Text="My Drug Comsumption "  Clicked="Button_Clicked_3"/>
 
+        <Button BackgroundColor="IndianRed" TextColor="White" Text="My Doctors" Clicked="Button_Clicked_4"/>
+
         <Button BackgroundColor="IndianRed" TextColor="White" Text="Settings" Clicked="Button_Clicked" />
 
     </StackLayout>

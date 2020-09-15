@@ -8,20 +8,20 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MeData.Views.Hospital.HospitalPage.xaml", "Views/Hospital/HospitalPage.xaml", typeof(global::MeData.Views.Hospital.HospitalPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MeData.Views.MyDostors.MyDoctorsPage.xaml", "Views/MyDostors/MyDoctorsPage.xaml", typeof(global::MeData.Views.MyDostors.MyDoctorsPage))]
 
-namespace MeData.Views.Hospital {
+namespace MeData.Views.MyDostors {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/Hospital/HospitalPage.xaml")]
-    public partial class HospitalPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/MyDostors/MyDoctorsPage.xaml")]
+    public partial class MyDoctorsPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.ListView l;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(HospitalPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MyDoctorsPage));
             l = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "l");
         }
     }

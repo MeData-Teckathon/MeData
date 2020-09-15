@@ -5,25 +5,25 @@ using MeData.Tables;
 using SQLite;
 using Xamarin.Forms;
 
-namespace MeData.Views.Hospital
+namespace MeData.Views.MyDostors
 {
-    public partial class HospitalPage : ContentPage
+    public partial class MyDoctorsPage : ContentPage
     {
-        public HospitalPage(string ID)
+        public MyDoctorsPage()
         {
             InitializeComponent();
         }
 
         async void Button_Clicked(System.Object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new HospitalAdd());
+            await Navigation.PushAsync(new AddDoctor());
         }
 
         void Button_Clicked_1(System.Object sender, System.EventArgs e)
         {
-            string _dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "myHospital");
+            string _dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "myDoctors");
             var bd = new SQLiteConnection(_dbPath);
-            l.ItemsSource = bd.Table<HHospital>().OrderBy(x => x.I).ToList();
+            l.ItemsSource = bd.Table<DDoctor>().OrderBy(x => x.III).ToList();
         }
     }
 }

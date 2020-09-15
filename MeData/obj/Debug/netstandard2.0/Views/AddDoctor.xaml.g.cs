@@ -8,13 +8,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MeData.Views.AddDrug.xaml", "Views/AddDrug.xaml", typeof(global::MeData.Views.AddDrug))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MeData.Views.AddDoctor.xaml", "Views/AddDoctor.xaml", typeof(global::MeData.Views.AddDoctor))]
 
 namespace MeData.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/AddDrug.xaml")]
-    public partial class AddDrug : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/AddDoctor.xaml")]
+    public partial class AddDoctor : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Entry D;
@@ -24,7 +24,7 @@ namespace MeData.Views {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(AddDrug));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(AddDoctor));
             D = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "D");
             DD = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "DD");
         }

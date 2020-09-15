@@ -10,6 +10,9 @@
                 <Entry Placeholder="Diagnosis or Treatment Name" x:Name="D" />
                 <Entry Placeholder="Date" x:Name="DD"/>
                 <Button Text="Add" TextColor="White" BackgroundColor="IndianRed" Clicked="Button_Clicked"/>
+                <Label/>
+                <Label/>
+                <Label Text=" Let Your Doctor Help You in Filling the Entries" TextColor="Gray" FontSize="15"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

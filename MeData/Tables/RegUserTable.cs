@@ -16,8 +16,8 @@ namespace MeData.Tables
 
         public override string ToString()
         {
-            return "Age:" + this.Age + "  Smoking:" + this.Name
-                 + "  AlcoholIntake:" + this.gender;
+            return "Age:" + this.Age + "   Smoking:" + this.Name
+                 + "   Alcohol Intake:" + this.gender;
         }
     }
 }

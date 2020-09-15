@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using MeData.Tables;
 using SQLite;
 
 using Xamarin.Forms;
@@ -15,24 +16,24 @@ namespace MeData.Views
             InitializeComponent();
         }
 
-        void Button_Clicked(System.Object sender, System.EventArgs e)
+        async void Button_Clicked(System.Object sender, System.EventArgs e)
         {
             var db = new SQLiteConnection(_dbPath);
-            //db.CreateTable<Hospital>();
-            //db.CreateTable<Hospital>();
-            //var maxPk = db.Table<Hospital>().OrderByDescending(c => c.ID).FirstOrDefault();
+            db.CreateTable<HHospital>();
+       
+            var maxPk = db.Table<HHospital>().OrderByDescending(c => c.I).FirstOrDefault();
 
-            //Hospital hospital = new Hospital()
-           // {
-               // ID = (maxPk == null ? 1 : maxPk.ID + 1),
-               // Diagnos = D.Text,
-               // Date = DD.Text
+          HHospital hhospital = new HHospital()
+           {
+               I = (maxPk == null ? 1 : maxPk.I + 1),
+               Diagnos = D.Text,
+               Date = DD.Text
 
 
-           // };
-           // db.Insert(hospital);
-           // await DisplayAlert(null, "Saved", "Ok");
-           // await Navigation.PopAsync();
+            };
+            db.Insert(hhospital);
+            await DisplayAlert(null, "Saved", "Ok");
+            await Navigation.PopAsync();
 
         }
     }

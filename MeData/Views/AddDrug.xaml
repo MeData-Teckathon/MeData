@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MeData.Views.AddDrug">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="smd.png"/>
+            <Entry Placeholder="Name of the Drug"/>
+            <Entry Placeholder="Who prescribed it?*"/>
+            <Button Text="Add" TextColor="White" BackgroundColor="IndianRed" Clicked="Button_Clicked"/>
+            <Label/>
+            <Label/>
+            <Label Text="*If the Prescription was made by a Doctor Write 'Doctor' ,if not Write 'SelfTake'" TextColor="Gray" FontSize="16"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -8,9 +8,10 @@
                     <Image Source="smd.png"/>
                     
                      <Button BackgroundColor="IndianRed" TextColor="White" FontSize="18" Text="Insert New Infromation" Clicked="Button_Clicked"/>
+                <Button BackgroundColor="IndianRed" TextColor="White" FontSize="18" Text="Refresh" Clicked="Button_Clicked_1"/>
 
                 
-                <ListView x:Name="l"/>
+                <ListView x:Name="l" RowHeight="200" SeparatorColor="IndianRed"/>
                     
                
                 

@@ -42,3 +42,5 @@
 /Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/ref/MeData.dll
 /Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/MeData.pdb
 /Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/Views/AddGeneralInfoPage.xaml.g.cs
+/Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/Views/AddDrug.xaml.g.cs
+/Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/Views/HospitalAdd.xaml.g.cs

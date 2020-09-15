@@ -10,7 +10,7 @@ namespace MeData.Views
     public partial class AddGeneralInfoPage : ContentPage
     {
         string hh;
-        string _dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "myGeneral");
+        string _dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "myGener");
         public AddGeneralInfoPage(string h)
         {
             InitializeComponent();
@@ -28,17 +28,19 @@ namespace MeData.Views
             RegUserTable regusertable = new RegUserTable()
             {
                 ID = (maxPk == null ? 1 : maxPk.ID+1),
-                Name = FN.Text,
+               Name = smoke.Text,
                 Age = AG.Text,
-                d = hh,
-                gender = Gen.Text,
-                Smoke = smoke.Text,
-                Alco = alcohol.Text
+            
+                gender = alcohol.Text,
+               
 
             };
             db.Insert(regusertable);
             await DisplayAlert(null, "Saved", "Ok");
             await Navigation.PopAsync();
+
+
+
         }
 
 

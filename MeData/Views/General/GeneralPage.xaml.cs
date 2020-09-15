@@ -30,7 +30,10 @@ namespace MeData.Views.General
 
         void Button_Clicked_1(System.Object sender, System.EventArgs e)
         {
-
+            
+            string _dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "myGener");
+            var bd = new SQLiteConnection(_dbPath);
+            l.ItemsSource = bd.Table<RegUserTable>().OrderBy(x => x.ID).ToList();
 
         }
 

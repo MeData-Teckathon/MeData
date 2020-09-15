@@ -950,3 +950,11 @@
 /Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/android/assets/SQLite-net.dll
+/Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/android/assets/SQLitePCLRaw.batteries_v2.dll
+/Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/android/assets/SQLitePCLRaw.core.dll
+/Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/android/assets/SQLitePCLRaw.lib.e_sqlite3.android.dll
+/Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/android/assets/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/android/assets/System.Buffers.dll
+/Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/android/assets/System.Memory.dll
+/Users/anastassia/Desktop/MeData/MeData.Android/obj/Debug/android/assets/System.Runtime.CompilerServices.Unsafe.dll

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MeData.Views.AddGeneralInfoPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="smd.png"/>
+            <Entry Placeholder="Full Name" x:Name="FN"/>
+            <Entry Placeholder="Age" x:Name="AG"/>
+            <Entry Placeholder="Gender" x:Name="Gen"/>
+            <Entry Placeholder="Do You Smoke? (Yes or No)*" x:Name="smoke"/>
+            <Entry Placeholder="Do You Drink Alcohol (Yes or No)**" x:Name="alcohol" />
+            <Button Text=" Save" TextColor="White" BackgroundColor="IndianRed" Clicked="Button_Clicked"/>
+            <Label Text="" TextColor="Gray"/>
+            <Label Text="" TextColor="Gray"/>
+            <Label Text="*Please Note That Rare Smoking Counts As Smoking" TextColor="Gray"/>
+            <Label Text="**Please Note That Rare Consumption Counts As Yes" TextColor="Gray"/>
+            <Label Text="" TextColor="Gray"/>
+            <Label Text="" TextColor="Gray"/>
+            <Label Text="It is Recommended to Uptade the Information Every Year." TextColor="Gray"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

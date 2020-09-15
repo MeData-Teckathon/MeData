@@ -41,3 +41,4 @@
 /Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/MeData.dll
 /Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/ref/MeData.dll
 /Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/MeData.pdb
+/Users/anastassia/Desktop/MeData/MeData/obj/Debug/netstandard2.0/Views/AddGeneralInfoPage.xaml.g.cs

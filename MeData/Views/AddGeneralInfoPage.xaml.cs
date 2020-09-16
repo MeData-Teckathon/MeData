@@ -10,7 +10,7 @@ namespace MeData.Views
     public partial class AddGeneralInfoPage : ContentPage
     {
         string hh;
-        string _dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "myGener");
+        string _dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "mrrqGe");
         public AddGeneralInfoPage(string h)
         {
             InitializeComponent();

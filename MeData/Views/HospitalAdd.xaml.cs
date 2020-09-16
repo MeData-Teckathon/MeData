@@ -10,7 +10,7 @@ namespace MeData.Views
 {
     public partial class HospitalAdd : ContentPage
     {
-        string _dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "myHospital");
+        string _dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "mrrqHosp");
         public HospitalAdd()
         {
             InitializeComponent();

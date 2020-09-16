@@ -21,7 +21,7 @@ namespace MeData.Views.MyDostors
 
         void Button_Clicked_1(System.Object sender, System.EventArgs e)
         {
-            string _dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "myDoctors");
+            string _dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "mrrqDo");
             var bd = new SQLiteConnection(_dbPath);
             l.ItemsSource = bd.Table<DDoctor>().OrderBy(x => x.III).ToList();
         }

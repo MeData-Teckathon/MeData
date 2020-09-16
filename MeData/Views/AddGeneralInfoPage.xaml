@@ -3,7 +3,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Image Source="smd.png"/>
-            <Entry Placeholder="ID National Number" x:Name="FN"/>
+            <Entry Placeholder="Name" x:Name="FN"/>
             <Entry Placeholder="Age" x:Name="AG"/>
             <Entry Placeholder="Gender" x:Name="Gen"/>
             <Entry Placeholder="Do You Smoke? (Yes or No)*" x:Name="smoke"/>

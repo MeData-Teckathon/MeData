@@ -1,6 +1,17 @@
 ﻿<Properties StartupConfiguration="{442A6C84-771C-419E-A87B-4B6DFBE30266}|Default">
   <MonoDevelop.Ide.ItemProperties.MeData.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.39197E3A-8710-4236-A613-EFBDA506E3F0" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MeData/Views/HospitalAdd.xaml.cs">
+    <Files>
+      <File FileName="MeData/Views/HospitalAdd.xaml.cs" Line="13" Column="121" />
+      <File FileName="MeData/Views/Hospital/HospitalPage.xaml.cs" Line="24" Column="125" />
+      <File FileName="MeData/Views/AddGeneralInfoPage.xaml.cs" Line="13" Column="121" />
+      <File FileName="MeData/Views/General/GeneralPage.xaml.cs" Line="34" Column="125" />
+      <File FileName="MeData/Views/AddDrug.xaml.cs" Line="12" Column="121" />
+      <File FileName="MeData/Views/Drugs/DrugsPage.xaml.cs" Line="24" Column="125" />
+      <File FileName="MeData/Views/AddDoctor.xaml.cs" Line="12" Column="121" />
+      <File FileName="MeData/Views/MyDostors/MyDoctorsPage.xaml.cs" Line="24" Column="125" />
+      <File FileName="MeData/Views/Settings/SettingsPage.xaml" Line="15" Column="125" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -8,9 +19,24 @@
             <Node name="MeData" expanded="True">
               <Node name="Tables" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="MyDostors" expanded="True" />
-                <Node name="Settings" expanded="True">
-                  <Node name="SettingsPage.xaml" expanded="True" selected="True" />
+                <Node name="Drugs" expanded="True">
+                  <Node name="DrugsPage.xaml" expanded="True" />
+                </Node>
+                <Node name="General" expanded="True">
+                  <Node name="GeneralPage.xaml" expanded="True" />
+                </Node>
+                <Node name="Hospital" expanded="True">
+                  <Node name="HospitalPage.xaml" expanded="True" />
+                </Node>
+                <Node name="MyDostors" expanded="True">
+                  <Node name="MyDoctorsPage.xaml" expanded="True" />
+                </Node>
+                <Node name="Settings" expanded="True" />
+                <Node name="AddDoctor.xaml" expanded="True" />
+                <Node name="AddDrug.xaml" expanded="True" />
+                <Node name="AddGeneralInfoPage.xaml" expanded="True" />
+                <Node name="HospitalAdd.xaml" expanded="True">
+                  <Node name="HospitalAdd.xaml.cs" selected="True" />
                 </Node>
               </Node>
             </Node>

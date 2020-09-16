@@ -12,7 +12,7 @@
                 <Label Text="ABOUT THIS APP" Margin="10,25" FontFamily="Bold" FontSize="Header" />
                 <Label/>
                 <Label/>
-                <Label Margin = "10,5" Text="MeData is a mobile appication that provides medical history of the patient fron different doctors and haelth providing centers in one profile. It contains four main section: First one is General information that your doctor should know, the second one is for notes after medical appointment. The third one is drug consumption history, it is also very important to show to your doctor, as it contains all the drugs that you are taking and that you took. The last one is your doctor's contact info shown in number, you may need this in the case of emergency." FontFamily="Bold" FontSize="Body"/>
+                <Label Margin = "10,5" Text="MeData is a mobile appication that provides medical history of the patient from different doctors and haelth providing centers in one profile. It contains four main section: First one is General information that your doctor should know, the second one is for notes after medical appointment. The third one is drug consumption history, it is also very important to show to your doctor, as it contains all the drugs that you are taking and that you took. The last one is your doctor's contact info shown in number, you may need this in the case of emergency." FontFamily="Bold" FontSize="Body"/>
                 <Label/>
                 <Label/>
                 <Label/>
